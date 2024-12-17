@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.cercle {
+    background-color: blue;
+    color: white;
+    padding: 45px 50px 70px 50px;
+    border-radius: 100%;
+    width: fit-content;
+    transition: 2s;
+
+}
+.cercle:hover {
+    background-color:red;
+    transition: 2s;
+    transform: rotate(180deg);
+}
+
+
+.rectangle {
+    background-color: yellow;
+    padding: 60px 50px;
+    margin-top: 30px;
+    max-width: 50%;
+    
+}
+.rectangle:hover{
+    background-color:green;
+    max-width: 100%;
+    transition: 2s;
+}
